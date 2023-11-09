@@ -9,16 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(content:   {
-            /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
-            Circle()
-            Rectangle()
-            HStack(content: {
-                Circle()
-                Rectangle()
-                Circle()
-            })
-        })
+        VStack{
+            Text("Hi there!")
+                .bold()
+                .italic()
+                .foregroundStyle(.green)
+            
+            Text("Goodbye")
+                .bold()
+                .foregroundStyle(.blue)
+            
+            Text("Tap me")
+                .font(.largeTitle)
+                .padding()
+                .background(Color.green)
+                .foregroundStyle(.white)
+                .clipShape(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/))
+                .grayscale(0.30)
+        }
     }
 }
 
