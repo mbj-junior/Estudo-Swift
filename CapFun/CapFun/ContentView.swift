@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Text(userText)
-                .font(.largeTitle)
+                .font(.headline)
             
             TextField("Enter text here: ",text: $userText)
                 .padding()
