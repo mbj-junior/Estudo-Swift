@@ -18,6 +18,13 @@ struct ContentView: View {
             
             TextField("Enter text here: ",text: $userText)
                 .padding()
+            
+            HStack{
+                CustomBottomView(title: "ALL CAPS", color: .red)
+                CustomBottomView(title: "Fist Letter", color: .blue)
+                CustomBottomView(title: "lowercase", color: .green)
+            }
+            .padding()
         }
     }
 }

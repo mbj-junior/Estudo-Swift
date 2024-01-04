@@ -14,6 +14,7 @@
 		D972C8392B2805DB00C9033F /* CapFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972C8382B2805DB00C9033F /* CapFunTests.swift */; };
 		D972C8432B2805DB00C9033F /* CapFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972C8422B2805DB00C9033F /* CapFunUITests.swift */; };
 		D972C8452B2805DB00C9033F /* CapFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972C8442B2805DB00C9033F /* CapFunUITestsLaunchTests.swift */; };
+		D9D422522B46426300769B9B /* CustomBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D422512B46426300769B9B /* CustomBottomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D972C83E2B2805DB00C9033F /* CapFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D972C8422B2805DB00C9033F /* CapFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunUITests.swift; sourceTree = "<group>"; };
 		D972C8442B2805DB00C9033F /* CapFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9D422512B46426300769B9B /* CustomBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D972C8272B2805D900C9033F /* CapFunApp.swift */,
 				D972C8292B2805D900C9033F /* ContentView.swift */,
+				D9D422512B46426300769B9B /* CustomBottomView.swift */,
 				D972C82B2B2805DB00C9033F /* Assets.xcassets */,
 				D972C82D2B2805DB00C9033F /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				D972C82A2B2805D900C9033F /* ContentView.swift in Sources */,
 				D972C8282B2805D900C9033F /* CapFunApp.swift in Sources */,
+				D9D422522B46426300769B9B /* CustomBottomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
